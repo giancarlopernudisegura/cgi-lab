@@ -35,7 +35,6 @@ if form_correct:
 
 print()
 
-print('Content-Type: text/plain\n')
 if not username and not password:
 	print(login_page())
 elif username == secret.username and password == secret.password:
