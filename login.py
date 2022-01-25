@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import cgi
 import cgitb
 cgitb.enable()
@@ -6,7 +6,6 @@ cgitb.enable()
 from templates import login_page, secret_page, after_login_incorrect
 import secret
 import os
-import http
 from http.cookies import SimpleCookie
 
 s = cgi.FieldStorage()
